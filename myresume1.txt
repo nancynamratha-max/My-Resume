@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Resume</title>
+       <style>
+@page{
+    size:A4;
+    margin:15mm;
+}
+        
+body{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 20px 40px;
+    line-height: 1.3;
+}
+
+h2{
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:5px;
+    text-transform:uppercase;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #999;
+    margin-bottom:10px;
+}
+
+p{
+    margin: 3px 0;
+}
+
+ul{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+li{
+    margin-bottom: 2px;
+}
+
+hr{
+    margin: 3px 0 6px 0;
+}
+.resume{
+    width:100%;
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:25px 35px;
+      border:2px solid black; 
+}
+</style>
+</head>
+<body>
+ 
+<div class="resume">
+    <center><h1>Nancy Namratha</h1></center>
+    <p align="center"><a href="http://github.com" target="_blank">💻GitHub </a>&nbsp;&nbsp;&nbsp;
+    <a href="http://linkedin.com" target="_blank">🔗LinkedIn </a>&nbsp;&nbsp;&nbsp;
+    9032701355&nbsp;&nbsp;&nbsp;
+    nancynamratha8@gmail.com
+    </p>
+    <h2>PROFESSIONAL EXPERIENCE</h2>
+    <hr>
+    <p>Salesforce Developer Virtual Intern</p>
+    <ul>
+        <li>Developed CRM application HandsMen Threads by designing custom objects, validation rules, and workflow automation.</li>
+        <li>Implemented Apex Triggers and Salesforce Flows to streamline lead-to-order lifecycle processes.</li>
+        <li>Configured role-based access control and field-level security to ensure secure data management.</li>
+    </ul>
+    <h2>EDUCATION</h2>
+    <hr>
+   <table width="100%">
+<tr>
+    <td><b>SRM UNIVERSITY AP</b></td>
+    <td align="right">2023-2027</td>
+</tr>
+<tr>
+    <td>Bachelor of Technology in Computer Science</td>
+    <td align="right">CGPA: 8.15</td>
+</tr>
+</table>
+    <h2>TECHNINICAL PROJECTS</h2>
+    <hr>
+    <p><b>AI Assistant using RAG</b></p>
+    <ul>
+        <li>Designed and developed a Retrieval-Augmented Generation (RAG) based AI assistant.</li>
+        <li>Integrated document retrieval with Large Language Models to generate reliable answers from custom datasets.</li>
+        <li>Utilized vector embeddings and semantic search to improve information retrieval accuracy.</li>
+        <li>Enhanced user experience through context-aware conversational interactions.</li>
+    </ul>
+    <p><b>Multi-Currency Expense Splitter | MERN Stack</b></p>
+    <ul>
+        <li>Built a web application for managing and splitting shared expenses across multiple currencies.</li>
+        <li>Implemented user authentication, group creation, expense tracking, and balance settlement functionalities.</li>
+        <li>Integrated currency conversion APIs to support real-time exchange rate calculations.</li>
+        <li>Developed RESTful APIs using Node.js and Express.js, with MongoDB for data storage and React.js for the frontend.</li>
+    </ul>
+    <h2>CERTIFICATIONS</h2>
+    <hr>
+    <p>Salesforce Certified Platform Developer </p>
+    <p>Oracle Certified Professional</p>
+    <p>Mongodb certification</p>
+    <h2>TECHNICAL SKILLS</h2>
+    <hr>
+    <p>Programming Languages: C, C++, Python,  HTML, CSS, JavaScript </p>
+    <p>Frameworks: React, Node.js, Express.js</p>
+    <p>Database: MongoDB, MySQL</p>
+    <p>Tools: Git, Visual Studio Code, google colab</p>
+    <p>Core Concepts: Data Structures, DBMS, OOP, Machine Learning</p>
+    </div>
+</body>
+</html>
